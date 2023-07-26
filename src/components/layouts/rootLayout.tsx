@@ -32,7 +32,7 @@ function RootLayout({ children }: RootLayoutProps) {
           <Button icon={<UserAddOutlined />}>Login</Button>
         </nav>
       </header>
-      <main>{children}</main>
+      <main style={{ height: "85vh" }}>{children}</main>
       <footer>
         <p>This is footer</p>
       </footer>
